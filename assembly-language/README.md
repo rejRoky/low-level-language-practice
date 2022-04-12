@@ -30,9 +30,9 @@ _start:
 
 #### Registers
 1. General registers
-..1. Data registers 
-..2. Pointer registers
-..3. Index registers
+ 1. Data registers 
+ 2. Pointer registers
+ 3. Index registers
 2. Control registers
 3. Segment registers
 
