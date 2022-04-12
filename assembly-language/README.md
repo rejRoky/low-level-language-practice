@@ -76,3 +76,8 @@ _start:
 1. Code Segment - contains all the instructions to be executed
 2. Data Segment - contains data, constants and work areas
 3. Stack Segment - contains data and return addresses of procedures or subroutines
+
+
+#### NASM Command
+` nasm -f elf32 "NameOfFile".asm  -o "NameOfFileMachineCode".o `
+` ld -m elf_i386 "NameOfFileMachineCode".o -o NameOfFileExcuetedFile `
