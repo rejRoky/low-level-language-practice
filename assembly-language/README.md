@@ -9,11 +9,11 @@
 
 #### Section
 
-1. *** data *** (declaring initialized data or constants)
+1. ***data*** (declaring initialized data or constants)
 ` section.data `
-2. *** bss *** (used for declaring variables)
+2. ***bss*** (used for declaring variables)
 ` section.bss `
-3. *** text *** (used for keeping the actual code)
+3. ***text*** (used for keeping the actual code)
 ```
 section.text
    global _start
@@ -24,9 +24,9 @@ _start:
 ` ; Comments in single line  `
 
 #### Memory segments
-1. *** Data segment *** (Declare of memory of .data ; .bss - Static memory for buffer)
-2. *** Code segment ***  (.text section)
-3. *** Stack *** (Contains data values passed to functions and procedures) 
+1. ***Data segment*** (Declare of memory of .data ; .bss - Static memory for buffer)
+2. ***Code segment***  (.text section)
+3. ***Stack*** (Contains data values passed to functions and procedures) 
 
 #### Registers
 1. General registers
@@ -38,9 +38,9 @@ _start:
 
 
 ### General Data Registers
-##### 32-bit data registers:  *** EAX, EBX, ECX, EDX ***
-##### 16-bit data registers: *** AX, BX, CX, DX ***
-##### 8-bit data registers: *** AH, AL, BH, BL, CH, CL, DH, DL ***
+##### 32-bit data registers:  ***EAX, EBX, ECX, EDX***
+##### 16-bit data registers: ***AX, BX, CX, DX***
+##### 8-bit data registers: ***AH, AL, BH, BL, CH, CL, DH, DL***
 
 1. AX is the primary accumulator - input/output and most arithmetic instructions
 2. BX is known as the base register - used in indexed addressing
